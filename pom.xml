@@ -22,6 +22,17 @@
     <jacoco.unit-tests.limit.class-complexity>20</jacoco.unit-tests.limit.class-complexity>
     <jacoco.unit-tests.limit.method-complexity>5</jacoco.unit-tests.limit.method-complexity>
   </properties>
+
+  <!-- ADDED -->
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub OWNER Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/dffrs/file-transfer-app</url>
+    </repository>
+  </distributionManagement>
+
+
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
