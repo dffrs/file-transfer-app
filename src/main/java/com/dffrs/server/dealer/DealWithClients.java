@@ -10,10 +10,10 @@ import java.nio.file.Paths;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-import com.dffrs.com.message.Message;
-import com.dffrs.com.message.connectionControl.ConnectionControl;
-import com.dffrs.com.message.fileTransferMessage.FileTransferMessage;
-import com.dffrs.com.message.fileTransferMessage.put.Put;
+import com.dffrs.message.Message;
+import com.dffrs.message.connectionControl.ConnectionControl;
+import com.dffrs.message.fileTransferMessage.FileTransferMessage;
+import com.dffrs.message.fileTransferMessage.put.Put;
 import com.dffrs.gui.ErrorReport;
 import com.dffrs.gui.Info;
 import com.dffrs.gui.MainPage;
