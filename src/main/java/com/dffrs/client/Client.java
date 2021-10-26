@@ -6,8 +6,8 @@ import java.net.InetAddress;
 import java.net.Socket;
 
 import com.dffrs.client.dealer.DealWithServer;
-import com.dffrs.com.message.connectionControl.ConnectionControl;
-import com.dffrs.com.message.connectionControl.ConnectionControl.Type;
+import com.dffrs.message.connectionControl.ConnectionControl;
+import com.dffrs.message.connectionControl.ConnectionControl.Type;
 import com.dffrs.gui.ErrorReport;
 import com.dffrs.gui.MainPage;
 

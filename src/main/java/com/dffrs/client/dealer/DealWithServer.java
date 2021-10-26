@@ -5,10 +5,10 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 
-import com.dffrs.com.message.Message;
-import com.dffrs.com.message.connectionControl.ConnectionControl;
-import com.dffrs.com.message.connectionControl.ConnectionControl.Type;
-import com.dffrs.com.message.fileTransferMessage.put.Put;
+import com.dffrs.message.Message;
+import com.dffrs.message.connectionControl.ConnectionControl;
+import com.dffrs.message.connectionControl.ConnectionControl.Type;
+import com.dffrs.message.fileTransferMessage.put.Put;
 import com.dffrs.gui.ErrorReport;
 import com.dffrs.gui.Info;
 import com.dffrs.gui.MainPage;
